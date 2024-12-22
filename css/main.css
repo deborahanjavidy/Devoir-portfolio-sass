@@ -1,0 +1,71 @@
+.sidenav {
+  width: 233px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  z-index: 10;
+  text-align: left;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: -20px;
+}
+
+.sidenav li a {
+  padding: 15px 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0;
+}
+
+.sidenav #user {
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+  margin-bottom: 2px;
+}
+
+.sidenav li:hover {
+  background-color: grey;
+}
+
+body {
+  display: flex;
+  background-color: white;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  margin-left: 233px;
+  padding: 20px;
+  width: calc(100% - 233px);
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  text-decoration: none;
+  margin: 20px 0 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
